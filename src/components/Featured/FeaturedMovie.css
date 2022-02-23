@@ -1,0 +1,89 @@
+.featured{
+  height: 100vh;
+}
+
+.featured_vertical{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient( to top, #111 10%, transparent 90%);
+}
+
+.featured_horizonl{
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 10%, transparent 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding-left: 2%;
+  padding-bottom: 150px;
+  padding-top: 70px;
+}
+
+.featured_name{
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
+.featured_info{
+  font-size: 1em;
+  margin-top: 1%;
+}
+
+.featured_point, 
+.featured_seasons, 
+.featured_year{
+  display: inline-block;
+  margin-right: 1%;
+  font-weight: bold;
+}
+
+.featured_point{
+  color: #46d369;
+}
+
+.featured_description{
+  margin-top: 1.2%;
+  font-size: 1.1em;
+  color: #999;
+  max-width: 40%;
+  text-align: justify;
+}
+
+.featured_buttuns{
+  margin-top: 1.5%;
+}
+
+.featured_whiteButton, 
+.featured_blackButton{
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 2%;
+  opacity: 1;
+  transform: all ease 0.3s;
+}
+
+.featured_whiteButton:hover, 
+.featured_blackButton:hover{
+  opacity: 0.7;
+}
+
+.featured_whiteButton{
+  background-color: #fff;
+  color: #000;
+}
+
+.featured_blackButton{
+  background-color: #333;
+  color: #fff;
+}
+
+.featured_genres{
+  margin-top: 1%;
+  font-size: 1em;
+  color: #999;
+}
