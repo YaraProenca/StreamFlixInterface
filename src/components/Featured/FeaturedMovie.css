@@ -87,3 +87,32 @@
   font-size: 1em;
   color: #999;
 }
+
+@media (max-width: 760px){
+  .featured{
+    height: 90vh;
+  }
+
+  .featured_name{
+    font-size: 2.5em;
+  }
+
+  .featured_info{
+    font-size: 16px;
+  }
+
+  .featured_description{
+    font-size: 14px;
+    max-width: 100%;
+    margin-right: 2%;
+  }
+
+  .featured_blackButton,
+  .featured_whiteButton{
+    font-size: 16px;
+  }
+
+  .featured_genres{
+    font-size: 14px;
+  }
+}

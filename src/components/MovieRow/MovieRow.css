@@ -13,7 +13,7 @@
 }
 
 .movieRow_list{
-  width: 1600px;
+ transition: all ease 0.5s;
 }
 
 .movieRow_item{
@@ -29,4 +29,40 @@
 
 .movieRow_item img:hover{
   transform: scale(1);
+}
+
+.movieRow_icon_left,
+.movieRow_icon_right{
+  position: absolute;
+  width: 40px;
+  height: 225px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgba(122, 122, 122, 0.11);
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.movieRow_icon_left{
+  left: 0;
+}
+
+.movieRow_icon_right{
+  right: 0;
+}
+
+.movieRow:hover .movieRow_icon_left,
+.movieRow:hover .movieRow_icon_right{
+  opacity: 1;
+}
+
+@media (max-width: 760px){
+  .movieRow_icon_left,
+  .movieRow_icon_right{
+    opacity: 1;
+  }
 }
