@@ -1,3 +1,14 @@
+# StreaFlixInterface
+
+NetFlix stream based interface.
+
+Project made with node.js and npm.
+###
+To load this project you must run:
+`npm i`.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
